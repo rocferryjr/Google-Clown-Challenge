@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 23px 11px;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+li a:hover {
+  text-decoration: underline solid rgba(0, 0, 0, 0.87);
+}
+
+.navbar-link-about {
+  position: relative;
+  margin: 0 13px;
+  color: #6B6A6C;
+}
+
+.navbar-link-store {
+  position: relative;
+  right: 20px;
+  color: #6B6A6C;
+}
+
+.google-logo {
+  font-size: 42px;
+  position: absolute;
+  top: 96px;
+  right: 495px;
+}
+
+h1 {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.g {
+  color: #0080ff;
+}
+
+.red {
+  color: #E22B28;
+}
+
+.orange {
+  color: #F9AF0D;
+}
+
+.green {
+  color: #2D9C42;
+}
+
+.separate-nav-link {
+  position: relative;
+  left: 900px;
+  color: #6B6A6C;
+}
+
+.navbar-sign-in {
+  position: absolute;
+  right: 31px;
+  top: 18px
+}
+
+.sign-in-button {
+  background-color: #0080ff;
+  font-size: 13px;
+  font-weight: 700px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  width: 70px;
+  height: 28px;
+}
+
+.search-bar {
+  position: absolute;
+  bottom: 52%;
+  right: 28%;
+}
+
+.bar {
+  width: 565px;
+  height: 38px;
+  border: 0.1rem solid #D5D5D5;
+  border-radius: 40px;
+}
+
+.bar:hover {
+  box-shadow: 2px 2px 4px #D5D5D5;
+}
+
+.fas {
+  font-size: 15px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #bfbfbf;
+}
+
+.search-lucky {
+  color: #D5D5D5;
+  position: absolute;
+  bottom: 40%;
+  right: 39%;
+}
+
+.button-below-the-bar {
+  background-color: #EDEDED;
+  font-size: 14px;
+  color: #6B6A6C;
+  margin: 5px;
+  padding: 11px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button-below-the-bar:hover {
+  color: green;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #EDEDED;
+  color: white;
+  text-align: center;
+}
+
+.google-footer {
+  color: #6B6A6C;
+}
+
+.privacy-link {
+  color: #6B6A6C;
+  position: relative;
+  left: 780px;
+}
